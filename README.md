@@ -1,5 +1,16 @@
 # JSTbuy - Hide upbit sell tab
-Chrome Extension : Hide the sell tab in Upbit
+![Cool Banner Image](screenshot.png "Title")
+
+## About
+Hide the sell button in Upbit
+
+It's an chrome extension made for fun.
+Don't take it seriously :P
+
+## Usage
+Extension should now be visible on your toolbar, jst click eraser icon.
+
+It work only https://upbit.co.kr
 
 # Donate
 TRX : TEjdi5HJSd4HwtZTHGsPxmnwext6Uucfbi
