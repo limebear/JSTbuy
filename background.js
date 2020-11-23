@@ -6,14 +6,6 @@ chrome.browserAction.onClicked.addListener(() => {
     })
   })
   
-  // chrome.tabs.onUpdated.addListener( (tabId, changeInfo, tab) => {
-  //   chrome.storage.sync.get('reload', storage => {
-  //     chrome.storage.sync.set({
-  //       reload: !storage.reload
-  //     })
-  //   })
-  // })
-  
   chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     setIcon(request.state, sender.tab.id)
   })
