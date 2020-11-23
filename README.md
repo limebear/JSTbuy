@@ -2,15 +2,18 @@
 ![Cool Banner Image](screen.JPG "Title")
 
 ## About
-Hide the sell button in Upbit
+Chrome Extension Hide the sell tab in Upbit
 
-It's an chrome extension made for fun.
 Don't take it seriously :P
 
 ## Usage
-Extension should now be visible on your toolbar, jst click eraser icon.
+It work only https://upbit.com
 
-It work only https://upbit.co.kr
+1. Install extension
+
+2. click eraser icon on toolbar
+
+3. Ready to earn money
 
 ## Donate
 TRX : TEjdi5HJSd4HwtZTHGsPxmnwext6Uucfbi
