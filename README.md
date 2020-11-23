@@ -11,7 +11,7 @@ It work only https://upbit.com
 
 1. Install extension
 
-2. click eraser icon on toolbar
+2. Click eraser icon on toolbar
 
 3. Ready to earn money
 
