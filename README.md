@@ -1,5 +1,5 @@
 # JSTbuy - Hide upbit sell tab
-![Cool Banner Image](screen.jpg "Title")
+![Cool Banner Image](screen.JPG "Title")
 
 ## About
 Hide the sell button in Upbit
