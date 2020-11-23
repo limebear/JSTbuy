@@ -4,8 +4,7 @@
   "version": "0.1",
   "permissions": [
     "tabs",
-    "storage",
-    "https://*.upbit.com/exchange/"
+    "storage"
   ],
   "background": {
     "scripts": [
