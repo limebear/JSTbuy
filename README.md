@@ -2,7 +2,7 @@
 ![Cool Banner Image](screen.JPG "Title")
 
 ## About
-Chrome Extension Hide the sell tab in Upbit
+Chrome extension : Hide the sell tab in Upbit
 
 Don't take it seriously :P
 
