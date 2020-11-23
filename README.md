@@ -1,5 +1,5 @@
 # JSTbuy - Hide upbit sell tab
-![Cool Banner Image](screenshot.png "Title")
+![Cool Banner Image](screen.jpg "Title")
 
 ## About
 Hide the sell button in Upbit
@@ -12,5 +12,5 @@ Extension should now be visible on your toolbar, jst click eraser icon.
 
 It work only https://upbit.co.kr
 
-# Donate
+## Donate
 TRX : TEjdi5HJSd4HwtZTHGsPxmnwext6Uucfbi
