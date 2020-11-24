@@ -15,3 +15,12 @@ const removeSellTab = (state) => {
     state ? sellTab.style.display = '' : sellTab.style.display = 'none'
     state ? instantTab.style.display = '' : instantTab.style.display = 'none'
 }
+
+
+function init() {
+    chrome.storage.sync.get('extensionActive', storage => {
+        removeSellTab(storage.extensionActive)
+    })
+}
+
+init();
