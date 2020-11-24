@@ -1,6 +1,6 @@
 {
   "name": "JSTbuy - Hide upbit sell button",
-  "description": "Chrome extension : Hide the sell tab in Upbit",
+  "description": "Chrome extension hide the sell tab in Upbit",
   "version": "0.1",
   "permissions": [
     "tabs",
@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.upbit.com/exchange*"
+        "https://*.upbit.com/*"
       ],
       "js": [
         "content-script.js"
