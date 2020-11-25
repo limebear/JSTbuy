@@ -1,7 +1,7 @@
 chrome.storage.onChanged.addListener((changes) => {
     if (changes) {
-        chrome.storage.sync.get('extensionActive', storage => {
-            removeSellTab(storage.extensionActive)
+        chrome.storage.sync.get('extentionStatus', storage => {
+            removeSellTab(storage.extentionStatus)
         })
     }
 })
@@ -18,8 +18,8 @@ const removeSellTab = (state) => {
 
 
 function init() {
-    chrome.storage.sync.get('extensionActive', storage => {
-        removeSellTab(storage.extensionActive)
+    chrome.storage.sync.get('extentionStatus', storage => {
+        removeSellTab(storage.extentionStatus)
     })
 }
 

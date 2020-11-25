@@ -1,19 +1,19 @@
-chrome.browserAction.onClicked.addListener(() => {
-  chrome.storage.sync.get('extensionActive', storage => {
-    chrome.storage.sync.set({
-      extensionActive: !storage.extensionActive
-    })
-  })
-})
-
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.url) {
+  if (changeInfo.url){
     chrome.storage.sync.get('reload', storage => {
       chrome.storage.sync.set({
         reload: !storage.reload
       })
     })
   }
+})
+
+chrome.browserAction.onClicked.addListener(() => {
+  chrome.storage.sync.get('extentionStatus', storage => {
+    chrome.storage.sync.set({
+      extentionStatus: !storage.extentionStatus
+    })
+  })
 })
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
